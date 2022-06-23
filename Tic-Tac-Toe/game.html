@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+<title>Tik Tak Toe</title>
+<link rel="stylesheet" href="style.css">
+<!-- <script src="js.js"> -->
+</script>
+
+</head>
+<body onload="
+setRandomTileOrder(12);
+setTiles();">
+ 
+    <div class="text-center text-uppercase mt-5">
+        <h1>Tik Tac Toe</h1>
+        <p><strong>Test your Skill:</strong>Match the three pairs of 'O' or 'X' to win game.</p>
+    </div>
+ 
+    <div id="gameboard" class="container">
+        <hr>
+        <br>
+        <div id="board">
+        </div>
+        <!-- <div class="row">
+            <div class="col-4 label"><h3>Timer</h3></div>
+            <div class="col-4 label"><h3>Moves</h3></div>
+            <div class="col-4 label"><h3>Score</h3></div>
+            <div class="col-4" id="timer"><div></div></div>
+            <div class="col-4" id="clicks"><div></div></div>
+            <div class="col-4" id="score"><div></div></div>
+        </div> -->
+        <div class="row">
+            <div class="col-6 mt-4" style="margin-left: 250px;">
+                <button id="startGame" class="btn btn-warning"><a style="text-decoration: none;" href="game.html">Reset</a></button>
+                <!-- <button id="reset" class="btn btn-warning"><a style="text-decoration: none;" href="game.html">Reset</a></button> -->
+            </div>
+            <div class="col-6 mt-4">
+                <!-- <button id="endGame" class="btn btn-danger"> End Game </button> -->
+            </div>
+            <div class="col-2 mx-auto">
+                <!-- <button id="startGame" class="btn btn-success">Start Game</button> -->
+                <!-- <button id="reset" class="btn btn-warning"><a style="text-decoration: none;" href="game.html">Reset</a></button> -->
+            </div>
+        </div>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>
